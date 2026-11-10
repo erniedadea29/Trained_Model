@@ -1,0 +1,9 @@
+,Random Forest,Gradient Boosting,Linear Regression
+R2 (line item),0.5058,0.4805,0.3998
+R2 (event total),0.2715,0.2524,0.0941
+R2 (log unit cost),0.9210,0.9162,0.8922
+MAE line (PHP),2648.6915,2760.0372,2994.6859
+RMSE line (PHP),4678.3259,4795.3734,5156.0302
+MAE event (PHP),6524.3208,6682.4681,7864.7496
+MAPE event (%),22.6554,23.7585,28.5457
+Accuracy event (100-MAPE %),77.3446,76.2415,71.4543

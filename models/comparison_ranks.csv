@@ -1,0 +1,9 @@
+,Random Forest,Gradient Boosting,Linear Regression
+R2 (line item),1,2,3
+R2 (event total),1,2,3
+R2 (log unit cost),1,2,3
+MAE line (PHP),1,2,3
+RMSE line (PHP),1,2,3
+MAE event (PHP),1,2,3
+MAPE event (%),1,2,3
+Accuracy event (100-MAPE %),1,2,3

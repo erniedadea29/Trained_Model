@@ -1,0 +1,214 @@
+Academic_Year,Date,Semester,College,Event_Title,Category,Item,Qty,Unit_Cost,Subtotal
+2021,2021-01-27,2nd Semester,CAF,Mock CPA Board Examination,Honorarium/Speakers,Guest Speaker Honorarium,3,3425,10275
+2021,2021-01-27,2nd Semester,CAF,Mock CPA Board Examination,Food & Catering,Snacks for Participants,78,135,10530
+2021,2021-01-27,2nd Semester,CAF,Mock CPA Board Examination,Printing & Documentation,Certificates & Programs Printing,40,40,1600
+2021,2021-01-27,2nd Semester,CAF,Mock CPA Board Examination,Registration & Online Platform Fees,Online Registration Platform Fee,1,655,655
+2021,2021-02-17,2nd Semester,CCS,Capstone Project Exhibit,Decorations & Layout,Stage Backdrop & Decor,1,5320,5320
+2021,2021-02-17,2nd Semester,CCS,Capstone Project Exhibit,Venue/Facilities,Function Hall Rental,1,4095,4095
+2021,2021-02-17,2nd Semester,CCS,Capstone Project Exhibit,Food & Catering,Meals for Attendees,138,175,24150
+2021,2021-02-17,2nd Semester,CCS,Capstone Project Exhibit,Photography/Documentation,Event Photographer/Videographer,1,2760,2760
+2021,2021-03-09,2nd Semester,CCJE,Crime Scene Investigation Workshop,Materials & Supplies,Forensic Kit Supplies,10,350,3500
+2021,2021-03-09,2nd Semester,CCJE,Crime Scene Investigation Workshop,Honorarium/Speakers,Guest Judge/Prosecutor,1,5000,5000
+2021,2021-03-09,2nd Semester,CCJE,Crime Scene Investigation Workshop,Printing & Documentation,Case Folders & Certificates,80,45,3600
+2021,2021-03-09,2nd Semester,CCJE,Crime Scene Investigation Workshop,Transportation,Speaker Transportation Allowance,1,1500,1500
+2021,2021-04-08,2nd Semester,CHS,First Aid and Basic Life Support Training,Honorarium/Speakers,Resource Person Honorarium,2,2520,5040
+2021,2021-04-08,2nd Semester,CHS,First Aid and Basic Life Support Training,Materials & Supplies,Program Materials,47,75,3525
+2021,2021-04-08,2nd Semester,CHS,First Aid and Basic Life Support Training,Food & Catering,Meals for Attendees,141,155,21855
+2021,2021-04-08,2nd Semester,CHS,First Aid and Basic Life Support Training,Internet & Connectivity,Mobile Data/Internet Load,1,1380,1380
+2021,2021-08-18,1st Semester,CCS,Coding Bootcamp for Freshmen,Food & Catering,Snacks for Participants,40,80,3200
+2021,2021-08-18,1st Semester,CCS,Coding Bootcamp for Freshmen,Internet & Connectivity,Mobile Data/Internet Load,1,1465,1465
+2021,2021-08-18,1st Semester,CCS,Coding Bootcamp for Freshmen,Materials & Supplies,Program Materials,46,210,9660
+2021,2021-08-18,1st Semester,CCS,Coding Bootcamp for Freshmen,Honorarium/Speakers,Guest Speaker Honorarium,3,5855,17565
+2021,2021-09-14,1st Semester,COE,Bridge Building Contest,Prizes/Tokens,Cash Prize Top 3,3,2590,7770
+2021,2021-09-14,1st Semester,COE,Bridge Building Contest,Materials & Supplies,Program Materials,87,160,13920
+2021,2021-09-14,1st Semester,COE,Bridge Building Contest,Food & Catering,Snacks for Participants,87,65,5655
+2021,2021-09-14,1st Semester,COE,Bridge Building Contest,Venue/Facilities,Function Hall Rental,1,4490,4490
+2021,2021-10-21,1st Semester,CTED,Demonstration Teaching Showcase,Food & Catering,Snacks for Participants,103,140,14420
+2021,2021-10-21,1st Semester,CTED,Demonstration Teaching Showcase,Photography/Documentation,Event Photographer/Videographer,1,2150,2150
+2021,2021-10-21,1st Semester,CTED,Demonstration Teaching Showcase,Materials & Supplies,Event Supplies Bundle,83,270,22410
+2021,2021-10-21,1st Semester,CTED,Demonstration Teaching Showcase,Printing & Documentation,Certificates & Programs Printing,55,60,3300
+2021,2021-11-19,1st Semester,CAS,Psychology Research Colloquium,Materials & Supplies,Research Poster Printing,25,300,7500
+2021,2021-11-19,1st Semester,CAS,Psychology Research Colloquium,Food & Catering,Meals for Panelists & Presenters,40,150,6000
+2021,2021-11-19,1st Semester,CAS,Psychology Research Colloquium,Honorarium/Speakers,External Research Panelist,2,2500,5000
+2021,2021-11-25,1st Semester,CHS,Blood Letting Activity,Transportation,Transportation Allowance,1,1105,1105
+2021,2021-11-25,1st Semester,CHS,Blood Letting Activity,Food & Catering,Snacks for Participants,80,145,11600
+2021,2021-11-25,1st Semester,CHS,Blood Letting Activity,Materials & Supplies,Program Materials,62,110,6820
+2021,2021-11-25,1st Semester,CHS,Blood Letting Activity,Security & First Aid,Security Personnel Fee,1,2445,2445
+2021,2021-12-09,1st Semester,CBM,Entrepreneurship Week,Souvenirs/Giveaways,Participant Souvenirs,106,230,24380
+2021,2021-12-09,1st Semester,CBM,Entrepreneurship Week,Sound & Lighting Equipment,Sound System Rental,1,4860,4860
+2021,2021-12-09,1st Semester,CBM,Entrepreneurship Week,Food & Catering,Snacks for Participants,75,60,4500
+2021,2021-12-09,1st Semester,CBM,Entrepreneurship Week,Decorations & Layout,Balloons & Streamers,1,630,630
+2022,2022-01-24,2nd Semester,CBM,Stock Market Simulation Challenge,Materials & Supplies,Event Supplies Bundle,38,275,10450
+2022,2022-01-24,2nd Semester,CBM,Stock Market Simulation Challenge,Venue/Facilities,Function Hall Rental,1,5905,5905
+2022,2022-01-24,2nd Semester,CBM,Stock Market Simulation Challenge,Food & Catering,Meals for Attendees,79,120,9480
+2022,2022-01-24,2nd Semester,CBM,Stock Market Simulation Challenge,Prizes/Tokens,Medals/Trophies,9,540,4860
+2022,2022-02-12,2nd Semester,CCS,IT Congress & Hackathon,Materials & Supplies,Hackathon Kits,80,150,12000
+2022,2022-02-12,2nd Semester,CCS,IT Congress & Hackathon,Honorarium/Speakers,Industry Keynote Speaker,2,6000,12000
+2022,2022-02-12,2nd Semester,CCS,IT Congress & Hackathon,Prizes/Tokens,Cash Prize Top 3 Teams,3,5000,15000
+2022,2022-02-12,2nd Semester,CCS,IT Congress & Hackathon,Food & Catering,Meals for 24-hr Hackathon,80,450,36000
+2022,2022-03-15,2nd Semester,CAF,Taxation Awareness Seminar,Food & Catering,Meals for Attendees,72,105,7560
+2022,2022-03-15,2nd Semester,CAF,Taxation Awareness Seminar,Honorarium/Speakers,Guest Speaker Honorarium,2,4730,9460
+2022,2022-03-15,2nd Semester,CAF,Taxation Awareness Seminar,Printing & Documentation,Certificates & Programs Printing,75,30,2250
+2022,2022-03-15,2nd Semester,CAF,Taxation Awareness Seminar,Registration & Online Platform Fees,Online Registration Platform Fee,1,1215,1215
+2022,2022-04-12,2nd Semester,COE,CAD Design Workshop,Honorarium/Speakers,Resource Person Honorarium,1,2505,2505
+2022,2022-04-12,2nd Semester,COE,CAD Design Workshop,Materials & Supplies,Event Supplies Bundle,41,170,6970
+2022,2022-04-12,2nd Semester,COE,CAD Design Workshop,Food & Catering,Meals for Attendees,108,185,19980
+2022,2022-04-12,2nd Semester,COE,CAD Design Workshop,Internet & Connectivity,Mobile Data/Internet Load,1,1190,1190
+2022,2022-05-09,2nd Semester,CTED,Reading Literacy Advocacy Drive,Food & Catering,Meals for Attendees,52,205,10660
+2022,2022-05-09,2nd Semester,CTED,Reading Literacy Advocacy Drive,Security & First Aid,Security Personnel Fee,1,2420,2420
+2022,2022-05-09,2nd Semester,CTED,Reading Literacy Advocacy Drive,Materials & Supplies,Event Supplies Bundle,50,125,6250
+2022,2022-05-09,2nd Semester,CTED,Reading Literacy Advocacy Drive,Transportation,Van Rental,1,3225,3225
+2022,2022-08-02,1st Semester,COE,Engineering Innovation & Robotics Expo,Prizes/Tokens,Cash Prize Top 3 Teams,3,3000,9000
+2022,2022-08-02,1st Semester,COE,Engineering Innovation & Robotics Expo,Venue/Facilities,Gymnasium Rental & Setup,1,6000,6000
+2022,2022-08-02,1st Semester,COE,Engineering Innovation & Robotics Expo,Materials & Supplies,Electronic Components,1,15000,15000
+2022,2022-08-02,1st Semester,COE,Engineering Innovation & Robotics Expo,Honorarium/Speakers,Industry Engineer Judge,3,2000,6000
+2022,2022-09-13,1st Semester,CCJE,Mock Trial Competition,Prizes/Tokens,Medals/Trophies,5,710,3550
+2022,2022-09-13,1st Semester,CCJE,Mock Trial Competition,Food & Catering,Meals for Attendees,129,175,22575
+2022,2022-09-13,1st Semester,CCJE,Mock Trial Competition,Venue/Facilities,Function Hall Rental,1,7655,7655
+2022,2022-09-13,1st Semester,CCJE,Mock Trial Competition,Materials & Supplies,Program Materials,31,35,1085
+2022,2022-10-19,1st Semester,CAS,Mental Health Awareness Week,Decorations & Layout,Balloons & Streamers,1,600,600
+2022,2022-10-19,1st Semester,CAS,Mental Health Awareness Week,Food & Catering,Snacks for Participants,114,125,14250
+2022,2022-10-19,1st Semester,CAS,Mental Health Awareness Week,Sound & Lighting Equipment,Sound System Rental,1,4950,4950
+2022,2022-10-19,1st Semester,CAS,Mental Health Awareness Week,Souvenirs/Giveaways,Participant Souvenirs,137,165,22605
+2022,2022-11-16,1st Semester,CHS,Health and Wellness Fair,Venue/Facilities,Gymnasium/Grounds Rental,1,5480,5480
+2022,2022-11-16,1st Semester,CHS,Health and Wellness Fair,Decorations & Layout,Stage Backdrop & Decor,1,4995,4995
+2022,2022-11-16,1st Semester,CHS,Health and Wellness Fair,Food & Catering,Snacks for Participants,142,140,19880
+2022,2022-11-16,1st Semester,CHS,Health and Wellness Fair,Photography/Documentation,Event Photographer/Videographer,1,2010,2010
+2022,2022-12-03,1st Semester,CTED,Education Research Symposium,Food & Catering,Lunch for Presenters & Panel,45,150,6750
+2022,2022-12-03,1st Semester,CTED,Education Research Symposium,Materials & Supplies,Research Paper Printing,30,150,4500
+2022,2022-12-03,1st Semester,CTED,Education Research Symposium,Honorarium/Speakers,DepEd Research Coordinator,1,4000,4000
+2023,2023-01-18,2nd Semester,COE,Solar Car Race Exhibit,Photography/Documentation,Event Photographer/Videographer,1,3775,3775
+2023,2023-01-18,2nd Semester,COE,Solar Car Race Exhibit,Food & Catering,Meals for Attendees,93,165,15345
+2023,2023-01-18,2nd Semester,COE,Solar Car Race Exhibit,Venue/Facilities,Gymnasium/Grounds Rental,1,5140,5140
+2023,2023-01-18,2nd Semester,COE,Solar Car Race Exhibit,Decorations & Layout,Balloons & Streamers,1,1005,1005
+2023,2023-02-22,2nd Semester,CTED,National Teachers Month Program,Souvenirs/Giveaways,Participant Souvenirs,88,200,17600
+2023,2023-02-22,2nd Semester,CTED,National Teachers Month Program,Sound & Lighting Equipment,Sound System Rental,1,4230,4230
+2023,2023-02-22,2nd Semester,CTED,National Teachers Month Program,Food & Catering,Meals for Attendees,85,90,7650
+2023,2023-02-22,2nd Semester,CTED,National Teachers Month Program,Decorations & Layout,Stage Backdrop & Decor,1,5685,5685
+2023,2023-03-30,2nd Semester,CHS,Nursing Skills Competition,Materials & Supplies,Materials Badges & Printing,50,45,2250
+2023,2023-03-30,2nd Semester,CHS,Nursing Skills Competition,Materials & Supplies,Simulation Supplies,1,3500,3500
+2023,2023-03-30,2nd Semester,CHS,Nursing Skills Competition,Prizes/Tokens,Medals Top 3,3,300,900
+2023,2023-03-30,2nd Semester,CHS,Nursing Skills Competition,Honorarium/Speakers,Speaker Honorarium,2,2500,5000
+2023,2023-04-26,2nd Semester,CHS,Midwifery Skills Demonstration,Materials & Supplies,Program Materials,31,175,5425
+2023,2023-04-26,2nd Semester,CHS,Midwifery Skills Demonstration,Food & Catering,Meals for Attendees,87,115,10005
+2023,2023-04-26,2nd Semester,CHS,Midwifery Skills Demonstration,Photography/Documentation,Event Photographer/Videographer,1,2440,2440
+2023,2023-04-26,2nd Semester,CHS,Midwifery Skills Demonstration,Printing & Documentation,Certificates & Programs Printing,81,40,3240
+2023,2023-05-10,2nd Semester,CBM,Mock Job Interview Day,Materials & Supplies,Event Supplies Bundle,30,215,6450
+2023,2023-05-10,2nd Semester,CBM,Mock Job Interview Day,Honorarium/Speakers,Guest Speaker Honorarium,3,3195,9585
+2023,2023-05-10,2nd Semester,CBM,Mock Job Interview Day,Internet & Connectivity,Mobile Data/Internet Load,1,1075,1075
+2023,2023-05-10,2nd Semester,CBM,Mock Job Interview Day,Food & Catering,Snacks for Participants,42,90,3780
+2023,2023-08-07,1st Semester,CBM,Marketing Summit & Trade Fair,Food & Catering,Snacks for Attendees,120,80,9600
+2023,2023-08-07,1st Semester,CBM,Marketing Summit & Trade Fair,Venue/Facilities,Trade Fair Booth Setup,15,500,7500
+2023,2023-08-07,1st Semester,CBM,Marketing Summit & Trade Fair,Honorarium/Speakers,Digital Marketing Industry Speaker,1,5000,5000
+2023,2023-09-20,1st Semester,CCJE,K9 Unit Demonstration Day,Food & Catering,Meals for Attendees,77,200,15400
+2023,2023-09-20,1st Semester,CCJE,K9 Unit Demonstration Day,Printing & Documentation,Certificates & Programs Printing,86,85,7310
+2023,2023-09-20,1st Semester,CCJE,K9 Unit Demonstration Day,Photography/Documentation,Event Photographer/Videographer,1,2855,2855
+2023,2023-09-20,1st Semester,CCJE,K9 Unit Demonstration Day,Materials & Supplies,Event Supplies Bundle,65,220,14300
+2023,2023-10-11,1st Semester,CAS,Interfaith Dialogue Forum,Printing & Documentation,Handouts & Booklets,31,65,2015
+2023,2023-10-11,1st Semester,CAS,Interfaith Dialogue Forum,Food & Catering,Meals for Attendees,46,155,7130
+2023,2023-10-11,1st Semester,CAS,Interfaith Dialogue Forum,Honorarium/Speakers,Guest Speaker Honorarium,2,4765,9530
+2023,2023-10-11,1st Semester,CAS,Interfaith Dialogue Forum,Registration & Online Platform Fees,Online Registration Platform Fee,1,590,590
+2023,2023-11-19,1st Semester,CAF,Accountancy Week Competition,Honorarium/Speakers,CPA Guest Speaker,1,4500,4500
+2023,2023-11-19,1st Semester,CAF,Accountancy Week Competition,Materials & Supplies,Case Study Booklets,60,100,6000
+2023,2023-11-19,1st Semester,CAF,Accountancy Week Competition,Food & Catering,Snacks for Participants,80,85,6800
+2023,2023-11-19,1st Semester,CAF,Accountancy Week Competition,Prizes/Tokens,Cash Prize Top 3 Teams,3,2500,7500
+2023,2023-12-06,1st Semester,CCS,Game Development Jam,Food & Catering,Snacks for Participants,110,75,8250
+2023,2023-12-06,1st Semester,CCS,Game Development Jam,Materials & Supplies,Event Supplies Bundle,35,260,9100
+2023,2023-12-06,1st Semester,CCS,Game Development Jam,Venue/Facilities,Function Hall Rental,1,4680,4680
+2023,2023-12-06,1st Semester,CCS,Game Development Jam,Prizes/Tokens,Cash Prize Top 3,1,4770,4770
+2024,2024-01-30,2nd Semester,CHS,Community Health Outreach,Food & Catering,Meals for Volunteers,40,120,4800
+2024,2024-01-30,2nd Semester,CHS,Community Health Outreach,Materials & Supplies,Medical Supplies & Medicines,1,12000,12000
+2024,2024-01-30,2nd Semester,CHS,Community Health Outreach,Honorarium/Speakers,Visiting Physician/Dentist,2,3000,6000
+2024,2024-01-30,2nd Semester,CHS,Community Health Outreach,Transportation,Van Rental for Medical Team,1,3500,3500
+2024,2024-02-14,2nd Semester,CBM,Case Analysis Competition,Food & Catering,Snacks for Participants,133,150,19950
+2024,2024-02-14,2nd Semester,CBM,Case Analysis Competition,Venue/Facilities,Gymnasium/Grounds Rental,1,5605,5605
+2024,2024-02-14,2nd Semester,CBM,Case Analysis Competition,Prizes/Tokens,Cash Prize Top 3,1,4470,4470
+2024,2024-02-14,2nd Semester,CBM,Case Analysis Competition,Materials & Supplies,Event Supplies Bundle,29,170,4930
+2024,2024-03-21,2nd Semester,CAF,Budgeting and Bookkeeping Workshop,Honorarium/Speakers,Resource Person Honorarium,2,4940,9880
+2024,2024-03-21,2nd Semester,CAF,Budgeting and Bookkeeping Workshop,Food & Catering,Snacks for Participants,49,95,4655
+2024,2024-03-21,2nd Semester,CAF,Budgeting and Bookkeeping Workshop,Internet & Connectivity,Mobile Data/Internet Load,1,530,530
+2024,2024-03-21,2nd Semester,CAF,Budgeting and Bookkeeping Workshop,Materials & Supplies,Event Supplies Bundle,57,65,3705
+2024,2024-04-04,2nd Semester,CCJE,Traffic Enforcement Seminar,Honorarium/Speakers,Guest Speaker Honorarium,2,3005,6010
+2024,2024-04-04,2nd Semester,CCJE,Traffic Enforcement Seminar,Printing & Documentation,Handouts & Booklets,48,30,1440
+2024,2024-04-04,2nd Semester,CCJE,Traffic Enforcement Seminar,Food & Catering,Meals for Attendees,132,105,13860
+2024,2024-04-04,2nd Semester,CCJE,Traffic Enforcement Seminar,Registration & Online Platform Fees,Online Registration Platform Fee,1,1000,1000
+2024,2024-05-16,2nd Semester,CAS,Debate and Oratory Tournament,Venue/Facilities,Function Hall Rental,1,4200,4200
+2024,2024-05-16,2nd Semester,CAS,Debate and Oratory Tournament,Food & Catering,Snacks for Participants,108,130,14040
+2024,2024-05-16,2nd Semester,CAS,Debate and Oratory Tournament,Materials & Supplies,Event Supplies Bundle,22,230,5060
+2024,2024-05-16,2nd Semester,CAS,Debate and Oratory Tournament,Prizes/Tokens,Cash Prize Top 3,1,2230,2230
+2024,2024-08-23,1st Semester,CCS,Tech Talk: Emerging Trends in AI,Registration & Online Platform Fees,Online Registration Platform Fee,1,875,875
+2024,2024-08-23,1st Semester,CCS,Tech Talk: Emerging Trends in AI,Printing & Documentation,Handouts & Booklets,89,65,5785
+2024,2024-08-23,1st Semester,CCS,Tech Talk: Emerging Trends in AI,Food & Catering,Snacks for Participants,108,140,15120
+2024,2024-08-23,1st Semester,CCS,Tech Talk: Emerging Trends in AI,Honorarium/Speakers,Guest Speaker Honorarium,1,2460,2460
+2024,2024-09-02,1st Semester,CAS,Liberal Arts Week Festival,Prizes/Tokens,Awards & Medals,15,260,3900
+2024,2024-09-02,1st Semester,CAS,Liberal Arts Week Festival,Food & Catering,Snacks for Performers & Staff,100,85,8500
+2024,2024-09-02,1st Semester,CAS,Liberal Arts Week Festival,Honorarium/Speakers,Guest Writer/Literary Judge,2,3200,6400
+2024,2024-09-02,1st Semester,CAS,Liberal Arts Week Festival,Materials & Supplies,Stage Backdrop & Decor,1,4200,4200
+2024,2024-10-16,1st Semester,CCJE,Criminology Board Exam Bootcamp,Materials & Supplies,Reviewer Booklets & Answer Sheets,60,120,7200
+2024,2024-10-16,1st Semester,CCJE,Criminology Board Exam Bootcamp,Honorarium/Speakers,Board Topnotcher Reviewer,3,3500,10500
+2024,2024-10-16,1st Semester,CCJE,Criminology Board Exam Bootcamp,Venue/Facilities,Function Hall Rental,3,2500,7500
+2024,2024-10-16,1st Semester,CCJE,Criminology Board Exam Bootcamp,Food & Catering,Snacks for Participants,60,90,5400
+2024,2024-11-08,1st Semester,COE,Engineering Week Exhibit,Food & Catering,Meals for Attendees,147,115,16905
+2024,2024-11-08,1st Semester,COE,Engineering Week Exhibit,Venue/Facilities,Gymnasium/Grounds Rental,1,7320,7320
+2024,2024-11-08,1st Semester,COE,Engineering Week Exhibit,Decorations & Layout,Balloons & Streamers,1,795,795
+2024,2024-11-08,1st Semester,COE,Engineering Week Exhibit,Photography/Documentation,Event Photographer/Videographer,1,1555,1555
+2024,2024-12-13,1st Semester,CTED,Classroom Management Seminar,Honorarium/Speakers,Guest Speaker Honorarium,3,4690,14070
+2024,2024-12-13,1st Semester,CTED,Classroom Management Seminar,Food & Catering,Snacks for Participants,145,70,10150
+2024,2024-12-13,1st Semester,CTED,Classroom Management Seminar,Printing & Documentation,Handouts & Booklets,84,70,5880
+2024,2024-12-13,1st Semester,CTED,Classroom Management Seminar,Registration & Online Platform Fees,Online Registration Platform Fee,1,1005,1005
+2025,2025-01-29,2nd Semester,CHS,Nutrition Month Celebration,Sound & Lighting Equipment,Sound System Rental,1,4900,4900
+2025,2025-01-29,2nd Semester,CHS,Nutrition Month Celebration,Souvenirs/Giveaways,Participant Souvenirs,90,220,19800
+2025,2025-01-29,2nd Semester,CHS,Nutrition Month Celebration,Decorations & Layout,Stage Backdrop & Decor,1,5970,5970
+2025,2025-01-29,2nd Semester,CHS,Nutrition Month Celebration,Food & Catering,Snacks for Participants,92,75,6900
+2025,2025-02-19,2nd Semester,CBM,Career Orientation Seminar,Food & Catering,Snacks for Participants,115,90,10350
+2025,2025-02-19,2nd Semester,CBM,Career Orientation Seminar,Registration & Online Platform Fees,Online Registration Platform Fee,1,850,850
+2025,2025-02-19,2nd Semester,CBM,Career Orientation Seminar,Honorarium/Speakers,Guest Speaker Honorarium,2,4075,8150
+2025,2025-02-19,2nd Semester,CBM,Career Orientation Seminar,Printing & Documentation,Handouts & Booklets,78,80,6240
+2025,2025-03-27,2nd Semester,CAF,Auditing Case Study Competition,Food & Catering,Meals for Attendees,150,130,19500
+2025,2025-03-27,2nd Semester,CAF,Auditing Case Study Competition,Materials & Supplies,Event Supplies Bundle,21,180,3780
+2025,2025-03-27,2nd Semester,CAF,Auditing Case Study Competition,Venue/Facilities,Gymnasium/Grounds Rental,1,8260,8260
+2025,2025-03-27,2nd Semester,CAF,Auditing Case Study Competition,Prizes/Tokens,Medals/Trophies,4,525,2100
+2025,2025-04-17,2nd Semester,CBM,Business Plan Pitching Competition,Prizes/Tokens,Cash Prize Top 3 Teams,3,4000,12000
+2025,2025-04-17,2nd Semester,CBM,Business Plan Pitching Competition,Food & Catering,Snacks for Participants & Judges,60,95,5700
+2025,2025-04-17,2nd Semester,CBM,Business Plan Pitching Competition,Materials & Supplies,Pitch Deck Printing & Materials,20,210,4200
+2025,2025-04-17,2nd Semester,CBM,Business Plan Pitching Competition,Honorarium/Speakers,Entrepreneur/Investor Judge,3,3200,9600
+2025,2025-05-29,2nd Semester,COE,Structural Design Competition,Food & Catering,Snacks for Participants,90,85,7650
+2025,2025-05-29,2nd Semester,COE,Structural Design Competition,Materials & Supplies,Load Testing Apparatus Rental,1,2500,2500
+2025,2025-05-29,2nd Semester,COE,Structural Design Competition,Materials & Supplies,Popsicle Sticks & Balsa Wood,30,180,5400
+2025,2025-08-11,1st Semester,CTED,Future Educators Teaching Festival,Prizes/Tokens,Trophies Top 3,3,800,2400
+2025,2025-08-11,1st Semester,CTED,Future Educators Teaching Festival,Honorarium/Speakers,Master Teacher Judge,3,2200,6600
+2025,2025-08-11,1st Semester,CTED,Future Educators Teaching Festival,Materials & Supplies,Instructional Materials & Visual Aids,20,310,6200
+2025,2025-08-11,1st Semester,CTED,Future Educators Teaching Festival,Food & Catering,Snacks for Participants & Judges,70,90,6300
+2025,2025-09-18,1st Semester,CAF,Financial Literacy Seminar,Honorarium/Speakers,Financial Advisor Resource Speaker,1,3800,3800
+2025,2025-09-18,1st Semester,CAF,Financial Literacy Seminar,Materials & Supplies,Handouts & Budgeting Worksheets,100,35,3500
+2025,2025-09-18,1st Semester,CAF,Financial Literacy Seminar,Food & Catering,Snacks for Attendees,100,80,8000
+2025,2025-10-24,1st Semester,CCJE,Cybercrime Awareness Forum,Registration & Online Platform Fees,Online Registration Platform Fee,1,735,735
+2025,2025-10-24,1st Semester,CCJE,Cybercrime Awareness Forum,Printing & Documentation,Certificates & Programs Printing,80,75,6000
+2025,2025-10-24,1st Semester,CCJE,Cybercrime Awareness Forum,Food & Catering,Meals for Attendees,120,185,22200
+2025,2025-10-24,1st Semester,CCJE,Cybercrime Awareness Forum,Honorarium/Speakers,Guest Speaker Honorarium,3,3680,11040
+2025,2025-11-14,1st Semester,CAS,Science Quiz Bee,Materials & Supplies,Event Supplies Bundle,80,295,23600
+2025,2025-11-14,1st Semester,CAS,Science Quiz Bee,Food & Catering,Meals for Attendees,148,180,26640
+2025,2025-11-14,1st Semester,CAS,Science Quiz Bee,Venue/Facilities,Gymnasium/Grounds Rental,1,8930,8930
+2025,2025-11-14,1st Semester,CAS,Science Quiz Bee,Prizes/Tokens,Medals/Trophies,9,360,3240
+2025,2025-12-05,1st Semester,CCS,Networking and Career Fair,Photography/Documentation,Event Photographer/Videographer,1,3100,3100
+2025,2025-12-05,1st Semester,CCS,Networking and Career Fair,Food & Catering,Snacks for Participants,95,110,10450
+2025,2025-12-05,1st Semester,CCS,Networking and Career Fair,Decorations & Layout,Stage Backdrop & Decor,1,4160,4160
+2025,2025-12-05,1st Semester,CCS,Networking and Career Fair,Venue/Facilities,Function Hall Rental,1,6370,6370
+2026,2026-08-13,1st Semester,CCS,College Orientation 2026: Beyond the Code,Food & Catering,Orientation Snacks,150,75,11250
+2026,2026-08-13,1st Semester,CCS,College Orientation 2026: Beyond the Code,Materials & Supplies,Lanyards and IDs,150,45,6750
+2026,2026-08-14,1st Semester,CCS,Among Us: Crewmates United Team Building,Venue/Facilities,Campground Rental,1,8000,8000
+2026,2026-08-14,1st Semester,CCS,Among Us: Crewmates United Team Building,Food & Catering,Boodle Fight Meals,100,180,18000
+2026,2026-09-30,1st Semester,CCS,Clean-up Drive,Food & Catering,Hydration & Snacks for Volunteers,50,60,3000
+2026,2026-09-30,1st Semester,CCS,Clean-up Drive,Materials & Supplies,Cleaning Implements (Brooms/Trashbags),20,150,3000
+2026,2026-10-10,1st Semester,CCS,Cybersecurity Awareness Seminar,Honorarium/Speakers,Certified Cybersecurity Professional,1,5000,5000
+2026,2026-10-10,1st Semester,CCS,Cybersecurity Awareness Seminar,Materials & Supplies,Certificates & Handout Printing,100,40,4000
+2026,2026-10-10,1st Semester,CCS,Cybersecurity Awareness Seminar,Food & Catering,Snacks for Participants,100,80,8000
+2026,2026-10-20,1st Semester,CCS,Seminar-Workshop Training: Canva Figma,Honorarium/Speakers,UI/UX Designer Speaker,1,4500,4500
+2026,2026-10-20,1st Semester,CCS,Seminar-Workshop Training: Canva Figma,Food & Catering,Snacks for Participants,80,85,6800
+2026,2026-11-20,1st Semester,CCS,Seminar-Workshop: Google Gemini AI,Honorarium/Speakers,AI Industry Expert,1,6000,6000
+2026,2026-11-20,1st Semester,CCS,Seminar-Workshop: Google Gemini AI,Food & Catering,Meals for Attendees,120,150,18000
+2026,2026-11-27,1st Semester,CCS,Basic Coding for Kids,Materials & Supplies,Beginner Coding Workbooks,40,200,8000
+2026,2026-11-27,1st Semester,CCS,Basic Coding for Kids,Food & Catering,Kid-friendly Snacks,50,100,5000
+2026,2026-12-14,1st Semester,CCS,CCS Year-End Party,Food & Catering,Dinner Buffet,150,350,52500
+2026,2026-12-14,1st Semester,CCS,CCS Year-End Party,Venue/Facilities,Banquet Hall Rental,1,12000,12000
+2026,2026-12-14,1st Semester,CCS,CCS Year-End Party,Prizes/Tokens,Raffle Prizes,1,15000,15000
