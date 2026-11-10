@@ -45,6 +45,11 @@ Run [`supabase_setup.sql`](supabase_setup.sql) once in the Supabase SQL Editor.
 ### API
 
 - `POST /predict`: list of `{Date, Semester, College, Event_Title, Category, Item, Qty}` → predicted costs, saved to `budget_predictions`
+- `POST /predict/request/{request_id}`: predicts every item of an existing `budget_requests` row
+  (from `budget_request_items`), compares requested vs predicted, flags items >25% over/under, and saves
+  to `budget_predictions` (re-running replaces old rows). Per-request summary: view `budget_request_predictions`.
+  Requires [`supabase_link_requests.sql`](supabase_link_requests.sql); app categories are mapped in
+  [`request_mapping.py`](request_mapping.py).
 - `GET /health`: which model is loaded
 - `POST /reload`: switch to a newly uploaded model
 

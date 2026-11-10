@@ -18,6 +18,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from predict import predict
+from request_mapping import fetch_request, flag_for
 from supabase_client import BUCKET, MODEL_NAME, get_client
 from train import load_h5
 
@@ -101,3 +102,53 @@ def predict_budget(items: list[LineItem], save: bool = True):
     totals = out.groupby("Event_Title")["Pred_Subtotal"].sum().round(2).to_dict()
     return {"model_id": STATE["row"]["id"], "saved": saved, "save_error": save_error,
             "items": rows, "event_totals": totals}
+
+
+@app.post("/predict/request/{request_id}")
+def predict_budget_request(request_id: str, save: bool = True):
+    """
+    Predict every item of an existing budget request (budget_requests + budget_request_items),
+    compare with the requested amounts, and save to budget_predictions (re-running replaces old rows).
+    """
+    sb = STATE["sb"]
+    try:
+        req, df = fetch_request(sb, request_id)
+    except LookupError as e:
+        raise HTTPException(404, str(e))
+
+    out = predict(df, model=STATE["model"])
+    items = []
+    for r in out.itertuples():
+        pred = float(r.Pred_Subtotal)
+        variance = r.requested_amount - pred
+        pct = round(variance / pred * 100, 2) if pred else 0.0
+        items.append({
+            "model_id": STATE["row"]["id"], "request_id": request_id, "request_item_id": r.request_item_id,
+            "event_title": r.Event_Title, "event_date": r.Date.date().isoformat(), "semester": r.Semester,
+            "college": r.College, "category": r.Category, "model_category": r.Category, "item": r.Item,
+            "qty": int(round(r.Qty)), "pred_unit_cost": float(r.Pred_Unit_Cost), "pred_subtotal": pred,
+            "requested_amount": round(float(r.requested_amount), 2), "variance_amount": round(variance, 2),
+            "variance_pct": pct, "flag": flag_for(pct), "low_confidence": bool(r.low_confidence),
+        })
+
+    saved, save_error = False, None
+    if save:
+        try:
+            sb.table("budget_predictions").delete().eq("request_id", request_id).execute()
+            sb.table("budget_predictions").insert(items).execute()
+            saved = True
+        except Exception as e:
+            save_error = str(e)[:300]
+
+    requested = round(sum(i["requested_amount"] for i in items), 2)
+    predicted = round(sum(i["pred_subtotal"] for i in items), 2)
+    pct = round((requested - predicted) / predicted * 100, 2) if predicted else 0.0
+    return {
+        "request_id": request_id, "title": req["title"], "department_code": req["department_code"],
+        "model_id": STATE["row"]["id"], "saved": saved, "save_error": save_error,
+        "requested_total": requested, "predicted_total": predicted,
+        "variance_amount": round(requested - predicted, 2), "variance_pct": pct, "flag": flag_for(pct),
+        "items_over": sum(i["flag"] == "OVER" for i in items),
+        "low_confidence_items": sum(i["low_confidence"] for i in items),
+        "items": items,
+    }
