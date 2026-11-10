@@ -10,6 +10,7 @@ Docs:  http://127.0.0.1:8000/docs
 import tempfile
 from contextlib import asynccontextmanager
 from datetime import date
+from pathlib import Path
 
 import pandas as pd
 from fastapi import FastAPI, HTTPException
@@ -21,20 +22,28 @@ from supabase_client import BUCKET, MODEL_NAME, get_client
 from train import load_h5
 
 STATE = {}
+LOCAL_MODEL = Path(__file__).parent / "models" / "best_model.h5"
 
 
 def load_active_model():
+    """Load the active model from Supabase; fall back to the bundled .h5 so the API never fails to start."""
     sb = get_client()
-    rows = (sb.table("ml_models").select("*").eq("name", MODEL_NAME).eq("is_active", True)
-              .order("created_at", desc=True).limit(1).execute().data)
-    if not rows:
-        raise RuntimeError("No active model in ml_models. Run `python upload_model.py` first.")
-    blob = sb.storage.from_(BUCKET).download(rows[0]["storage_path"])
-    with tempfile.NamedTemporaryFile(suffix=".h5", delete=False) as tmp:
-        tmp.write(blob)
-    model, meta = load_h5(tmp.name)
-    STATE.update(sb=sb, model=model, meta=meta, row=rows[0])
-    print(f"Loaded model id={rows[0]['id']} ({meta['algorithm']}) from Supabase")
+    try:
+        rows = (sb.table("ml_models").select("*").eq("name", MODEL_NAME).eq("is_active", True)
+                  .order("created_at", desc=True).limit(1).execute().data)
+        if not rows:
+            raise RuntimeError("no active model in ml_models (run `python upload_model.py`)")
+        blob = sb.storage.from_(BUCKET).download(rows[0]["storage_path"])
+        with tempfile.NamedTemporaryFile(suffix=".h5", delete=False) as tmp:
+            tmp.write(blob)
+        model, meta = load_h5(tmp.name)
+        STATE.update(sb=sb, model=model, meta=meta, row=rows[0], source="supabase", warning=None)
+        print(f"Loaded model id={rows[0]['id']} ({meta['algorithm']}) from Supabase")
+    except Exception as e:
+        model, meta = load_h5(LOCAL_MODEL)
+        row = {"id": None, "algorithm": meta["algorithm"], "metrics": meta["cv_metrics"]}
+        STATE.update(sb=sb, model=model, meta=meta, row=row, source="local file", warning=str(e)[:300])
+        print(f"WARNING: Supabase model unavailable ({str(e)[:150]}). Using bundled {LOCAL_MODEL.name}")
 
 
 @asynccontextmanager
@@ -60,7 +69,8 @@ class LineItem(BaseModel):
 @app.get("/health")
 def health():
     r = STATE["row"]
-    return {"status": "ok", "model_id": r["id"], "algorithm": r["algorithm"], "metrics": r["metrics"]}
+    return {"status": "ok", "model_source": STATE["source"], "model_id": r["id"],
+            "algorithm": r["algorithm"], "metrics": r["metrics"], "warning": STATE["warning"]}
 
 
 @app.post("/reload")
@@ -81,7 +91,13 @@ def predict_budget(items: list[LineItem], save: bool = True):
         "semester": r.Semester, "college": r.College, "category": r.Category, "item": r.Item,
         "qty": int(r.Qty), "pred_unit_cost": float(r.Pred_Unit_Cost), "pred_subtotal": float(r.Pred_Subtotal),
     } for r in out.itertuples()]
+    saved, save_error = False, None
     if save:
-        STATE["sb"].table("budget_predictions").insert(rows).execute()
+        try:
+            STATE["sb"].table("budget_predictions").insert(rows).execute()
+            saved = True
+        except Exception as e:  # still return predictions if the table is missing
+            save_error = str(e)[:300]
     totals = out.groupby("Event_Title")["Pred_Subtotal"].sum().round(2).to_dict()
-    return {"model_id": STATE["row"]["id"], "saved": save, "items": rows, "event_totals": totals}
+    return {"model_id": STATE["row"]["id"], "saved": saved, "save_error": save_error,
+            "items": rows, "event_totals": totals}
