@@ -1,0 +1,20 @@
+# Render Blueprint for the NCF budget prediction API (FastAPI + trained Random Forest).
+# Render Dashboard > New > Blueprint > pick this repo. Fill in the two
+# secrets below when Render asks (they are NOT stored in git).
+services:
+  - type: web
+    name: ncf-predict-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m uvicorn api:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      # Same Python as the model was trained with (scikit-learn 1.9.1 pickle).
+      - key: PYTHON_VERSION
+        value: 3.13.6
+      # Supabase > Project Settings > API. The service_role key is SECRET: server-side only.
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
