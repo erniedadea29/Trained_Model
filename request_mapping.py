@@ -26,6 +26,9 @@ CATEGORY_MAP = {
     "Internet & Connectivity": "Internet & Connectivity",
     "Registration & Online Platform Fees": "Registration & Online Platform Fees",
     "Security & First Aid": "Security & First Aid",
+    # Older app category names (requests created before the app switched to the training categories)
+    "Food & Refreshments": "Food & Catering",
+    "Prizes & Awards": "Prizes/Tokens",
     "Events": None,
     "General": None,
     "Contingency": None,
